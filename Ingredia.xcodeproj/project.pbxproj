@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D83A4E0E2A63365000130373 /* IngrediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A4E0D2A63365000130373 /* IngrediaApp.swift */; };
+		D83A4E102A63365000130373 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A4E0F2A63365000130373 /* MainView.swift */; };
+		D83A4E122A63365100130373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83A4E112A63365100130373 /* Assets.xcassets */; };
+		D83A4E152A63365100130373 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83A4E142A63365100130373 /* Preview Assets.xcassets */; };
+		D83A4E1C2A63372F00130373 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A4E1B2A63372F00130373 /* ProductsView.swift */; };
+		D83A4E1E2A63379400130373 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A4E1D2A63379400130373 /* SettingsView.swift */; };
+		D83A4E202A633E6700130373 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A4E1F2A633E6700130373 /* CameraView.swift */; };
+		D83A4E432A644A5300130373 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = D83A4E422A644A5300130373 /* OpenAIKit */; };
+		D87923242A65E5450078CF71 /* ProductAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87923232A65E5450078CF71 /* ProductAddView.swift */; };
+		D87923262A65E5FC0078CF71 /* ProductAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87923252A65E5FC0078CF71 /* ProductAddViewModel.swift */; };
+		D879232A2A65E63F0078CF71 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87923292A65E63F0078CF71 /* Language.swift */; };
+		D879232C2A65E6A90078CF71 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D879232B2A65E6A90078CF71 /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D83A4E0A2A63365000130373 /* Ingredia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ingredia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83A4E0D2A63365000130373 /* IngrediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngrediaApp.swift; sourceTree = "<group>"; };
+		D83A4E0F2A63365000130373 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D83A4E112A63365100130373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D83A4E142A63365100130373 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D83A4E1B2A63372F00130373 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		D83A4E1D2A63379400130373 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D83A4E1F2A633E6700130373 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		D87923232A65E5450078CF71 /* ProductAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddView.swift; sourceTree = "<group>"; };
+		D87923252A65E5FC0078CF71 /* ProductAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddViewModel.swift; sourceTree = "<group>"; };
+		D87923292A65E63F0078CF71 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		D879232B2A65E6A90078CF71 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D83A4E072A63365000130373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83A4E432A644A5300130373 /* OpenAIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D83A4E012A63365000130373 = {
+			isa = PBXGroup;
+			children = (
+				D83A4E0C2A63365000130373 /* Ingredia */,
+				D83A4E0B2A63365000130373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D83A4E0B2A63365000130373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83A4E0A2A63365000130373 /* Ingredia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83A4E0C2A63365000130373 /* Ingredia */ = {
+			isa = PBXGroup;
+			children = (
+				D87923282A65E6360078CF71 /* Models */,
+				D87923272A65E62D0078CF71 /* Views */,
+				D83A4E0D2A63365000130373 /* IngrediaApp.swift */,
+				D83A4E0F2A63365000130373 /* MainView.swift */,
+				D83A4E112A63365100130373 /* Assets.xcassets */,
+				D83A4E132A63365100130373 /* Preview Content */,
+			);
+			path = Ingredia;
+			sourceTree = "<group>";
+		};
+		D83A4E132A63365100130373 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D83A4E142A63365100130373 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D879231C2A65E1DD0078CF71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D83A4E1B2A63372F00130373 /* ProductsView.swift */,
+				D87923232A65E5450078CF71 /* ProductAddView.swift */,
+				D87923252A65E5FC0078CF71 /* ProductAddViewModel.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		D879231D2A65E1FD0078CF71 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D83A4E1F2A633E6700130373 /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		D879231E2A65E21F0078CF71 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D83A4E1D2A63379400130373 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D87923272A65E62D0078CF71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D879231E2A65E21F0078CF71 /* Settings */,
+				D879231D2A65E1FD0078CF71 /* Camera */,
+				D879231C2A65E1DD0078CF71 /* Products */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D87923282A65E6360078CF71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D87923292A65E63F0078CF71 /* Language.swift */,
+				D879232B2A65E6A90078CF71 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D83A4E092A63365000130373 /* Ingredia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83A4E182A63365100130373 /* Build configuration list for PBXNativeTarget "Ingredia" */;
+			buildPhases = (
+				D83A4E062A63365000130373 /* Sources */,
+				D83A4E072A63365000130373 /* Frameworks */,
+				D83A4E082A63365000130373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ingredia;
+			packageProductDependencies = (
+				D83A4E422A644A5300130373 /* OpenAIKit */,
+			);
+			productName = Ingredia;
+			productReference = D83A4E0A2A63365000130373 /* Ingredia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D83A4E022A63365000130373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D83A4E092A63365000130373 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D83A4E052A63365000130373 /* Build configuration list for PBXProject "Ingredia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D83A4E012A63365000130373;
+			packageReferences = (
+				D83A4E412A644A5300130373 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = D83A4E0B2A63365000130373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83A4E092A63365000130373 /* Ingredia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D83A4E082A63365000130373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83A4E152A63365100130373 /* Preview Assets.xcassets in Resources */,
+				D83A4E122A63365100130373 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D83A4E062A63365000130373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87923242A65E5450078CF71 /* ProductAddView.swift in Sources */,
+				D83A4E102A63365000130373 /* MainView.swift in Sources */,
+				D83A4E1E2A63379400130373 /* SettingsView.swift in Sources */,
+				D83A4E0E2A63365000130373 /* IngrediaApp.swift in Sources */,
+				D83A4E202A633E6700130373 /* CameraView.swift in Sources */,
+				D87923262A65E5FC0078CF71 /* ProductAddViewModel.swift in Sources */,
+				D83A4E1C2A63372F00130373 /* ProductsView.swift in Sources */,
+				D879232C2A65E6A90078CF71 /* Settings.swift in Sources */,
+				D879232A2A65E63F0078CF71 /* Language.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D83A4E162A63365100130373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D83A4E172A63365100130373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D83A4E192A63365100130373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ingredia/Preview Content\"";
+				DEVELOPMENT_TEAM = P43R2RV8M3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera in order to read the ingredients list";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to be able to save your media";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.glenngijsberts.Ingredia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D83A4E1A2A63365100130373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ingredia/Preview Content\"";
+				DEVELOPMENT_TEAM = P43R2RV8M3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera in order to read the ingredients list";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to be able to save your media";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.glenngijsberts.Ingredia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D83A4E052A63365000130373 /* Build configuration list for PBXProject "Ingredia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83A4E162A63365100130373 /* Debug */,
+				D83A4E172A63365100130373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83A4E182A63365100130373 /* Build configuration list for PBXNativeTarget "Ingredia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83A4E192A63365100130373 /* Debug */,
+				D83A4E1A2A63365100130373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D83A4E412A644A5300130373 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FuturraGroup/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D83A4E422A644A5300130373 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D83A4E412A644A5300130373 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D83A4E022A63365000130373 /* Project object */;
+}
